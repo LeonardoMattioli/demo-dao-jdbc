@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         SellerDao sellerDao = DaoFactory.createSellerDao();
+        System.out.println("========= TESTE 1: seller findbyid ============");
 
         Seller seller = sellerDao.findById(3);
 
